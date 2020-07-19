@@ -264,3 +264,41 @@ aside .analitcs ul li span{
   font-weight: bold;
   margin-left:5px;
 }
+
+.content .charts{
+  width:700px;
+  height:450px;
+  padding:20px;
+  margin-top:20px;
+  background:#fff;
+  border:1.2px solid #ecf0f1;
+  border-radius:10px;
+}
+
+.content .charts .audience header{
+  width:200px;
+  height:80px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .charts .audience header span{
+  color:#8D95A3;
+  font-size:15px; 
+}
+
+.content .charts .audience header strong{
+  font-size:27px;
+  color:#2A283C;
+}
+
+.content .charts .audience header .last-days strong{
+  color:#4FC89F;
+  font-size:15px;
+}
+
+.content .charts .audience header .last-days strong span{
+  font-weight: normal;
+}

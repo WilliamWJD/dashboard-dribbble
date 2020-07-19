@@ -5,6 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="./script.js"></script>
+
   <title>Dashboard Figma</title>
 </head>
 
@@ -129,13 +134,18 @@
             <strong>301,079</strong>
             <div class="last-days">
               <img src="" alt="">
-              <span>for 7 last days</span>
+              <strong>+58,31 <span>for 7 last days</span></strong>
             </div>
           </header>
-        </div>
+
+          <canvas class="line-chart">
+          </canvas>
+        </div> 
       </div>
     </div>
   </div>
 </body>
+
+<script src="./script.js"></script>
 
 </html>
