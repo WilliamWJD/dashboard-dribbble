@@ -1,0 +1,266 @@
+*{
+  margin:0;
+  padding:0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #FCFAFD;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing:antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+.container{
+  height:100vh;
+  display: flex;
+}
+
+aside{
+  width: 300px;
+  height:100%;
+  background: #fff;
+  border-right: 1.2px solid #ecf0f1;
+  
+  display:flex;
+  flex-direction: column;
+}
+
+aside .profile{
+  height:70px;
+  margin:15px;
+
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+aside .profile .profile_box{
+  display: flex;
+  align-items: center;
+}
+
+aside .profile .profile_box img{
+  width: 40px;
+  height: 40px;
+  border-radius:50%;
+}
+
+aside .profile .profile_box .profile_detail{
+  display:flex;
+  flex-direction: column;
+  margin-left:15px;
+}
+
+aside .profile .profile_box .profile_detail strong{
+  font-size:16px;
+  color:#677487;
+}
+
+aside .profile .profile_detail span{
+  font-size: 14px;
+  color:#BAC1C9;
+}
+
+aside .profile a{
+  text-decoration: none;
+  background: #F5F6F8;
+  padding:5px 16px;
+  border-radius:5px;
+  color:#99A1AC;
+  font-size:20px;
+}
+
+aside .profile_info{
+  margin:0px 20px;
+}
+
+aside .profile_info ul{
+  list-style: none;
+  margin-left:10px;
+}
+
+aside .profile_info ul li{
+  display:flex;
+  align-items: center;
+  margin-bottom:25px;
+}
+
+aside .profile_info ul li:last-child{
+  margin-bottom:0;
+}
+
+aside .profile_info ul li img{
+  color: #C4C9CF;
+}
+
+aside .profile_info ul li span{
+  font-size:17px;
+  color:#162A45;
+  font-weight: bold;
+  margin-left:10px;
+}
+
+aside .profile_info a{
+  background: #01B075;
+  color:#fff;
+  text-decoration: none;
+  height:50px;
+  border-radius:5px;
+  margin-top:15px;
+  padding-left: 15px;
+  transition:0.2s;
+
+  display:flex;
+  align-items: center;
+}
+
+aside .profile_info a img{
+  width: 20px;
+  height:20px;
+}
+
+aside .profile_info a span{
+  margin-left:10px;
+}
+
+aside .profile_info a:hover{
+  background: rgb(3, 165, 111);
+}
+
+aside .podcasts{
+  margin:30px 10px;
+  padding:0 10px;
+}
+
+aside .podcasts strong{
+  color:#B5BBC7;
+  font-weight: normal;
+}
+
+aside .podcasts ul{
+  list-style:none;
+  margin-top:20px;
+}
+
+aside .podcasts ul li{
+  display:flex;
+  align-items: center;
+  margin-bottom:25px;
+}
+
+aside .podcasts ul li:last-child{
+  margin-bottom:0;
+}
+
+aside .podcasts ul li span{
+  margin-left:10px;
+  color:#20314B;
+  font-weight: bold;
+}
+
+aside .analitcs{
+  margin:5px 10px;
+  padding:0 10px;
+}
+
+aside .analitcs strong{
+  color:#B5BBC7;
+  font-weight: normal;
+}
+
+aside .analitcs ul{
+  list-style:none;
+  margin-top:20px;
+}
+
+aside .analitcs ul li{
+  display:flex;
+  align-items: center;
+  margin-bottom:25px;
+}
+
+aside .analitcs ul li:last-child{
+  margin-bottom:0;
+}
+
+aside .analitcs ul li span{
+  margin-left:10px;
+  color:#20314B;
+  font-weight: bold;
+}
+
+.content{
+  width: 100%;
+  margin:40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content .legends_box {
+  background:#fff;
+  border:1.2px solid #ecf0f1;
+  border-radius:10px;
+  height: 130px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content .legends_box ul{
+  list-style: none;
+  margin:0 25px;
+
+  display:flex;
+  justify-content: space-between;
+  flex:1;
+}
+
+.content .legends_box ul li{
+  width: 200px;
+  height:80px;
+  border-right: 2px solid #F2F0F3;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .legends_box ul li:last-child{
+  border:0;
+}
+
+.content .legends_box ul li span{
+  font-size:15px;
+  color:#8D95A3
+}
+
+.content .legends_box ul li strong{
+  font-size:27px;
+  color:#2A283C;
+}
+
+.content .legends_box ul li .porcent_detail{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content .legends_box ul li .porcent_detail img{
+  width: 22px;
+  height:22px;
+  background-color: #CCEEE3;
+  border-radius: 50%;
+  padding:5px;
+}
+
+.content .legends_box ul li .porcent_detail span{
+  color:#4FC89F;
+  font-size:15px;
+  font-weight: bold;
+  margin-left:5px;
+}
