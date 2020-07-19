@@ -265,7 +265,14 @@ aside .analitcs ul li span{
   margin-left:5px;
 }
 
-.content .charts{
+.content .box-info-audience{
+  width:100%;
+
+  display:flex;
+  flex-direction: row;
+}
+
+.content .box-info-audience .charts{
   width:700px;
   height:450px;
   padding:20px;
@@ -275,7 +282,7 @@ aside .analitcs ul li span{
   border-radius:10px;
 }
 
-.content .charts .audience header{
+.content .box-info-audience .charts .audience header{
   width:200px;
   height:80px;
   
@@ -284,21 +291,64 @@ aside .analitcs ul li span{
   justify-content: space-between;
 }
 
-.content .charts .audience header span{
+.content .box-info-audience .charts .audience header span{
   color:#8D95A3;
   font-size:15px; 
 }
 
-.content .charts .audience header strong{
+.content .box-info-audience .charts .audience header strong{
   font-size:27px;
   color:#2A283C;
 }
 
-.content .charts .audience header .last-days strong{
+.content .box-info-audience .charts .audience header .last-days strong{
   color:#4FC89F;
   font-size:15px;
 }
 
-.content .charts .audience header .last-days strong span{
+.content .box-info-audience .charts .audience header .last-days strong span{
   font-weight: normal;
 }
+
+.content .box-info-audience .webinars{
+  width: 300px;
+  margin:20px 25px;
+  height:300px;
+  padding:20px;
+  background:#01B075;
+  border-radius:10px;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content .box-info-audience .webinars .webinars_content{
+  display:flex;
+  flex-direction: column;
+}
+
+.content .box-info-audience .webinars .webinars_content span{
+  color:#DDF4EC;
+  font-size: 15px;
+}
+
+.content .box-info-audience .webinars .webinars_content strong{
+  color:#fff;
+  font-size: 20px;
+  margin:10px 0;
+}
+
+.content .box-info-audience .webinars a{
+  color:#DDF4EC;
+  font-size: 15px;
+  text-decoration: none;
+  transition:0.2s;
+}
+
+.content .box-info-audience .webinars a:hover{
+  text-decoration: underline;
+}
+
+
+
